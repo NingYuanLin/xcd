@@ -1,5 +1,3 @@
-#!/bin/bash
-
 function xcd() {
   # <<< 设置缓存文件路径 <<<
   home_dir_path=$(builtin cd ||{ echo "无法进入用户根目录";return; };pwd;)
