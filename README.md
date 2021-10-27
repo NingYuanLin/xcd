@@ -1,5 +1,5 @@
 # xcd
-a simple shell to support `cd` history in linux
+a simple shell to support `cd` history in linux and macos
 # How to configure
 ## step1. ensure what shell you used
 ```
@@ -15,3 +15,6 @@ echo $SHELL
 you can also excute `echo xcd.sh >> ~/.bashrc` to simple the above operations
 # How to use
 use `cd ...` to return the work directory you used last time
+
+# tips
+1. You can use `cd -` to achieve same function like `cd ...` in linux, but it don't support macos.
